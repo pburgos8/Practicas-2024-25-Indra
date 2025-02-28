@@ -1,0 +1,96 @@
+a , a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+body {
+    margin:0px;
+    background-image:url("../img/fondo.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color:turquoise;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    background-color:burlywood;
+}
+
+footer nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+    padding:10px;
+}
+
+main {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:30px;
+    gap:10px;
+}
+
+#eventosmain{
+    flex-direction:column;
+}
+
+main * {
+
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    background-color:white;
+    flex-wrap:wrap;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#eventosmain * {
+    margin:5px;
+    padding:5px;
+}
+
+#eventosmain > *{
+    border:1px solid black;
+    width:70%;
+    flex:1;
+}
+
+#eventosmain img {
+    width:75%;
+    height:50%;
+}
+
+article img{
+    width:50%;
+    height:50%;
+}
+
+article {
+    flex:1;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+button{
+    padding:10px;
+    font-weight: bold;
+}
+
+fieldset * {
+    margin-top:20px;
+    margin-bottom:10px;
+}
